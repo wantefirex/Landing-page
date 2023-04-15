@@ -17,10 +17,10 @@ ul h1{
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .container-nav{
-    background-color:#1F2937;
+    background-color:white;
     margin: 0;
     padding: -10px;
     width: 100%;
@@ -28,7 +28,11 @@ a{
 }
 .header-logo {
     font-size: 14px;
-    margin: 25px;
+    margin: 100px;
+}
+.header-logo img{
+    height: auto;
+    width: 50px;
 }
 
 /* termina header */
@@ -68,15 +72,20 @@ img{
 }
 /*  end section 2 */
 .section-3 {
-    margin: 15%;
-    margin-top: 70px;
+    margin: 5%;
+    margin-top: 50px;
 }
+.section-3 img{
+    height: 75px;
+    width: 75px;
+}
+
 .header-2 {
     margin-top: 0px;
     position: relative;
     top: -50px;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
 }
 .header-2 h2 {
     font-size: 35px;
@@ -88,9 +97,19 @@ img{
 .container-text1 p{
     text-align: center;
 }
+.container-img-1 {
+    margin-top: -45px;
+    display: flex;
+}
+.container-img-1 img{
+    height: auto;
+    text-align: center;
+    width: 175px;
+}
 .container-boxes{
     display: flex;
 }
+
 .container-boxes div{
     display: flex;
     align-items: center;
